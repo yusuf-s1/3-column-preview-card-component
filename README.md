@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./screenshot.jpg)
+![Screenshot](screenshot.png)
 
 ### Links
 
 -   Solution URL: [github.com/yusuf-s1/3-column-preview-card-component](https://github.com/yusuf-s1/3-column-preview-card-component)
--   Live Site URL: [will be added](https://your-live-site-url.com)
+-   Live Site URL: [Visit Live Site]([https://your-live-site-url.com](https://yusuf-s1.github.io/3-column-preview-card-component/))
 
 ## My process
 
