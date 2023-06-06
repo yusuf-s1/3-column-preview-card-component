@@ -154,6 +154,7 @@ main {
     body {
         display: grid;
         place-content: center;
+        padding: 1.5rem;
     }
     main {
         max-width: 918px;
