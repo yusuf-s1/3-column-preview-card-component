@@ -152,7 +152,6 @@ main {
 
 @media (min-width: 991.98px) {
     body {
-        padding: 0;
         display: grid;
         place-content: center;
     }
