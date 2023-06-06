@@ -1,0 +1,178 @@
+/* css reset from joshwcomeau.com */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+:root {
+    --clr-primary-1: hsl(31, 77%, 52%);
+    --clr-primary-2: hsl(184, 100%, 22%);
+    --clr-primary-3: hsl(179, 100%, 13%);
+    --clr-neutral-1: hsla(0, 0%, 100%, 0.75);
+    --clr-neutral-2: hsl(0, 0%, 95%);
+    --fs-1: 0.932rem;
+    --fs-2: 2rem;
+    --fw-normal: 400;
+    --fw-bold: 700;
+    /* font-family: "Big Shoulders Display", cursive;
+    font-family: "Lexend Deca", sans-serif; */
+}
+
+body {
+    padding: 5.5rem 1.5rem 0;
+    background-color: var(--clr-neutral-2);
+}
+
+main {
+    max-width: 326px;
+    margin: 0 auto;
+    padding-block-end: 5.5rem;
+}
+
+.container {
+    background-color: var(--clr-primary-1);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+}
+
+.container:nth-child(1) {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.container:nth-child(2) {
+    background-color: var(--clr-primary-2);
+}
+
+.container:nth-child(3) {
+    background-color: var(--clr-primary-3);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.heading {
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-2);
+    font-family: "Big Shoulders Display", cursive;
+    color: var(--clr-neutral-2);
+    text-transform: uppercase;
+}
+
+.para {
+    font-size: var(--fs-1);
+    font-family: "Lexend Deca", sans-serif;
+    color: var(--clr-neutral-1);
+    margin-block-end: 2rem;
+}
+
+.btn {
+    width: 148px;
+    border: 2px solid var(--clr-neutral-2);
+    border-radius: 1.5rem;
+    background-color: var(--clr-neutral-2);
+    font-size: var(--fs-1);
+    font-family: "Lexend Deca", sans-serif;
+    color: var(--clr-primary-1);
+    line-height: 2.75rem;
+    cursor: pointer;
+    transition: 0.25s ease-out;
+}
+
+.btn1:hover {
+    background-color: var(--clr-primary-1);
+    color: var(--clr-neutral-2);
+}
+
+.btn2 {
+    color: var(--clr-primary-2);
+}
+
+.btn2:hover {
+    background-color: var(--clr-primary-2);
+    color: var(--clr-neutral-2);
+}
+
+.btn3 {
+    color: var(--clr-primary-3);
+}
+
+.btn3:hover {
+    background-color: var(--clr-primary-3);
+    color: var(--clr-neutral-2);
+}
+
+@media (min-width: 991.98px) {
+    body {
+        padding: 0;
+        display: grid;
+        place-content: center;
+    }
+    main {
+        max-width: 918px;
+        padding: 0;
+        display: flex;
+    }
+    .container:nth-child(1) {
+        border-radius: 0;
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+    }
+    .container:nth-child(3) {
+        border-radius: 0;
+        border-top-right-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+    }
+    .para {
+        line-height: 1.75;
+        margin-block-end: 3.75rem;
+    }
+}
