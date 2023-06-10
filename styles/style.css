@@ -115,6 +115,7 @@ main {
 }
 
 .btn {
+    display: block;
     width: 148px;
     border: 2px solid var(--clr-neutral-2);
     border-radius: 1.5rem;
@@ -122,6 +123,7 @@ main {
     font-size: var(--fs-1);
     font-family: "Lexend Deca", sans-serif;
     color: var(--clr-primary-1);
+    text-align: center; 
     line-height: 2.75rem;
     cursor: pointer;
     transition: 0.25s ease-out;
