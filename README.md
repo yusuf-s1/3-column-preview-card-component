@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [github.com/yusuf-s1/3-column-preview-card-component](https://github.com/yusuf-s1/3-column-preview-card-component)
--   Live Site URL: [Visit Live Site]([https://your-live-site-url.com](https://yusuf-s1.github.io/3-column-preview-card-component/))
+-   Live Site URL: [3-column-preview-card-component](https://yusuf-s1.github.io/3-column-preview-card-component/)
 
 ## My process
 
